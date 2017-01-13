@@ -1,0 +1,8 @@
+javac  -cp lib/android.jar ../native_agent/Nat_conn.java ../native_agent/Clnt_sokt.java ../native_agent/execl_shell.java -d .
+
+
+/home/andro/tools/AndroidSdk/Sdk/build-tools/23.0.2/dx --dex --output=native_agent/native_agent.apk native_agent/Nat_conn.class  native_agent/execl_shell.class native_agent/Clnt_sokt.class  native_agent/MyThread.class  native_agent/execl_shell_b.class
+cp native_agent/native_agent.apk  /usr/local/lib/python2.7/dist-packages/drozer/modules/common
+
+
+java native_agent/Nat_conn 11
