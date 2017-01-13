@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-  <data key="basedir" value="/home/andro/Desktop/ass_to_all_two" />
+  <data key="basedir" value="/home/andro/git_repository/ass_to_all_two" />
   <data key="ndkdir" value="/home/andro/Desktop/android-ndk-r10" />
 </config>
